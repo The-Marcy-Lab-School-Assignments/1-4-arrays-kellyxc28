@@ -7,7 +7,9 @@ const addToFrontOrBack = (arr, value, isFront) => {
     }
 };
 
-const reverseString = () => {
+const reverseString = (str) => {
+    const strCopy = [...str];
+    return strCopy.reverse().join('');
 };
 
 const newArrayFullOf = () => {
