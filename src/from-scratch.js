@@ -42,7 +42,12 @@ const roundAllNumsDown = (arr) => {
   return arrCopy;
 };
 
-const getAllYCoordinates = () => {
+const getAllYCoordinates = (arrOfCoords) => {
+    let yCoords = [];
+    for (let i = 0; i < arrOfCoords.length; i++) {
+      yCoords.push(arrOfCoords[i][1]);
+    }
+    return yCoords;
 };
 
 module.exports = {
