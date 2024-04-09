@@ -1,32 +1,4 @@
 {
-  "idToTestNameHash": {
-    "FrScTe1": "From Scratch Tests addToFrontOrBack - MUTATION - adds value to the front or back",
-    "FrScTe2": "From Scratch Tests reverseString - PURE - returns a reversed string",
-    "FrScTe3": "From Scratch Tests newArrayFullOf - PURE - returns an array full of the given value",
-    "FrScTe4": "From Scratch Tests insertIntoMiddle - MUTATION - inserts value into the middle of an array",
-    "FrScTe5": "From Scratch Tests deleteFromMiddle - MUTATION - deletes value from the middle of an array",
-    "FrScTe6": "From Scratch Tests isRightIndex - PURE - returns true if the index is the right index",
-    "FrScTe7": "From Scratch Tests roundAllNumsDown - PURE - rounds all numbers down",
-    "FrScTe8": "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates",
-    "MoTe1": "Modify Tests uppercaseAll - No matter how many words passed in, they are uppercased",
-    "MoTe2": "Modify Tests destructureCoordinates - Destructures the coordinates array into x and y variables",
-    "DeTe1": "Debug Tests clearAll - removes all elements from an array as a mutation",
-    "DeTe2": "Debug Tests getFirstItem - returns the first item in an array WITHOUT mutating original"
-  },
-  "testNameToIdHash": {
-    "From Scratch Tests addToFrontOrBack - MUTATION - adds value to the front or back": "FrScTe1",
-    "From Scratch Tests reverseString - PURE - returns a reversed string": "FrScTe2",
-    "From Scratch Tests newArrayFullOf - PURE - returns an array full of the given value": "FrScTe3",
-    "From Scratch Tests insertIntoMiddle - MUTATION - inserts value into the middle of an array": "FrScTe4",
-    "From Scratch Tests deleteFromMiddle - MUTATION - deletes value from the middle of an array": "FrScTe5",
-    "From Scratch Tests isRightIndex - PURE - returns true if the index is the right index": "FrScTe6",
-    "From Scratch Tests roundAllNumsDown - PURE - rounds all numbers down": "FrScTe7",
-    "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates": "FrScTe8",
-    "Modify Tests uppercaseAll - No matter how many words passed in, they are uppercased": "MoTe1",
-    "Modify Tests destructureCoordinates - Destructures the coordinates array into x and y variables": "MoTe2",
-    "Debug Tests clearAll - removes all elements from an array as a mutation": "DeTe1",
-    "Debug Tests getFirstItem - returns the first item in an array WITHOUT mutating original": "DeTe2"
-  },
   "testScores": {
     "From Scratch Tests": {
       "FrScTe1": 1,
@@ -37,20 +9,30 @@
       "FrScTe6": 1,
       "FrScTe7": 1,
       "FrScTe8": 1
-    },
-    "Modify Tests": {
-      "MoTe1": 1,
-      "MoTe2": 0
-    },
-    "Debug Tests": {
-      "DeTe1": 0,
-      "DeTe2": 0
     }
+  },
+  "idToTestNameHash": {
+    "FrScTe1": "From Scratch Tests addToFrontOrBack - MUTATION - adds value to the front or back",
+    "FrScTe2": "From Scratch Tests reverseString - PURE - returns a reversed string",
+    "FrScTe3": "From Scratch Tests newArrayFullOf - PURE - returns an array full of the given value",
+    "FrScTe4": "From Scratch Tests insertIntoMiddle - MUTATION - inserts value into the middle of an array",
+    "FrScTe5": "From Scratch Tests deleteFromMiddle - MUTATION - deletes value from the middle of an array",
+    "FrScTe6": "From Scratch Tests isRightIndex - PURE - returns true if the index is the right index",
+    "FrScTe7": "From Scratch Tests roundAllNumsDown - PURE - rounds all numbers down",
+    "FrScTe8": "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates"
+  },
+  "testNameToIdHash": {
+    "From Scratch Tests addToFrontOrBack - MUTATION - adds value to the front or back": "FrScTe1",
+    "From Scratch Tests reverseString - PURE - returns a reversed string": "FrScTe2",
+    "From Scratch Tests newArrayFullOf - PURE - returns an array full of the given value": "FrScTe3",
+    "From Scratch Tests insertIntoMiddle - MUTATION - inserts value into the middle of an array": "FrScTe4",
+    "From Scratch Tests deleteFromMiddle - MUTATION - deletes value from the middle of an array": "FrScTe5",
+    "From Scratch Tests isRightIndex - PURE - returns true if the index is the right index": "FrScTe6",
+    "From Scratch Tests roundAllNumsDown - PURE - rounds all numbers down": "FrScTe7",
+    "From Scratch Tests getAllYCoordinates - PURE - returns an array of all y coordinates": "FrScTe8"
   },
   "humanReadable": {
     "From Scratch Tests": "8/8",
-    "finalTestScore": "FINAL SCORE: 9/12",
-    "Modify Tests": "1/2",
-    "Debug Tests": "0/2"
+    "finalTestScore": "FINAL SCORE: 8/8"
   }
 }
