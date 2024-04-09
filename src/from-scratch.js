@@ -34,7 +34,12 @@ const isRightIndex = (arr, value, index) => {
     return arr[index] === value;
 };
 
-const roundAllNumsDown = () => {
+const roundAllNumsDown = (arr) => {
+  const arrCopy = [...arr];
+  for (let i = 0; i < arrCopy.length; i++) {
+    arrCopy[i] = Math.floor(arrCopy[i]);
+  }
+  return arrCopy;
 };
 
 const getAllYCoordinates = () => {
