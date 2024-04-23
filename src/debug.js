@@ -8,6 +8,7 @@ const getFirstItem = (array) => {
   return array[0];
 };
 
+// named export 
 module.exports = {
   clearArr,
   getFirstItem,

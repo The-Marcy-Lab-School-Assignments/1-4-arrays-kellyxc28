@@ -13,6 +13,7 @@ const destructureCoordinates = (coordinates) => {
 };
 console.log(destructureCoordinates([1, 2]));
 
+// named exports 
 module.exports = {
   uppercaseAll,
   destructureCoordinates,
